@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '.rObHG]i8SY;<Kv25Gl!EP#Nm{;E7ZF4n|nqWx.G|v0r-[bvJ[)&plOJu.Z]!k>G' );
-define( 'SECURE_AUTH_KEY',  '%!^gpPSc/E07[+8p{E@F5Fu{s^nSN~[6DyR}Gf8=E:->oavpp+<f~!MmvH?5-$61' );
-define( 'LOGGED_IN_KEY',    'z3S:iN# `|+%J#Hxw4zHA-;sjgZlNB,&K1h]JaoHTu.I=O$[j%Br&*n.lD,U13%x' );
-define( 'NONCE_KEY',        '3E,S|3[:Lt`$XG>N_ThAdT|!]~:UBwF{4aC2X7KO!k8]9;p{bCRatM6!n$k&R:h/' );
-define( 'AUTH_SALT',        '4]NMy|9|^,vS~r2m^un2UAPCxQTf):9hMMI}UC5bj1/nV;7N^!*/[>$ux`Ln!J!3' );
-define( 'SECURE_AUTH_SALT', '|EyhXTvbH[vE=CJ>r2H%U_jn%`+a+O{mtE6b[@1L5k^#j5^?WW@7wLhv7D{pe7&v' );
-define( 'LOGGED_IN_SALT',   'NujL*7IR._K2T9@Uo6N`kJ~0w+CLVWu9QXaUea4e2d9kU1 T* b];QO,S_JmS;/V' );
-define( 'NONCE_SALT',       '?K9m^0)-+K_BA>mqi;-0<X]]UB/EB?s8(EMJ*EbhO$l@igmxj_TksGX%.#U|c=Da' );
+define( 'AUTH_KEY',         'eQa]!AuXQi7v<R(5(NcN**>gu/KO{W9qZx->5e.Kol!byDt&!9p<J%Vr(]C>Ax4.' );
+define( 'SECURE_AUTH_KEY',  'Apn+}$%&ge*]_lh-sA+*#V;L,p=~=isphk1{eL*1`UZv~5Lh5/?bX^O5PS&xAFbf' );
+define( 'LOGGED_IN_KEY',    'yXoTE;qi~tGd6AKT?mz/FX!mdFC k+6--DF{>yP#3*CA^<bfPMEYc+ 7!O_)< /W' );
+define( 'NONCE_KEY',        'k|wf0kEbnEL%|,;$Gd$Zvbm20tl/5#Gf:H49~W,N5Y2l(/O SU`Yb/|{&}Q!#F(s' );
+define( 'AUTH_SALT',        '&&4y~r3pb~38otEM__6mBQzN(ALa{2]v)m`Xmb&9Q$b&UnJWk <kZ>o9J;Cts>,n' );
+define( 'SECURE_AUTH_SALT', '6!3N)P?Tepfm^gx~Z+|V1w4J[<5AB$Hd}S(G-Esh8*!-{ph&`X0M(boqXMaY[3v^' );
+define( 'LOGGED_IN_SALT',   'Qys<{k)2lUFAj]R/am1jO-h}q>1{VY_D+no$V&+nA>~4K8ls)}LO>[`iutmq6 ,>' );
+define( 'NONCE_SALT',       'q_]o!C8=FC:_$SA^c 2t8TDW6X=(JKH<GRb`6<m7F<_b>OLrQmExE4IP9Sgjy#8R' );
 
 /**#@-*/
 
@@ -71,7 +71,7 @@ define( 'NONCE_SALT',       '?K9m^0)-+K_BA>mqi;-0<X]]UB/EB?s8(EMJ*EbhO$l@igmxj_T
  *
  * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
-$table_prefix = 'wp_learn_';
+$table_prefix = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -85,7 +85,7 @@ $table_prefix = 'wp_learn_';
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-define( 'WP_DEBUG', true );
+define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
