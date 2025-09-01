@@ -59,7 +59,7 @@ function kib_settings_init()
 
   add_settings_section(
     "kib_section_pengumuman",
-    "pengaturan Bar Pengumuman",
+    "Pengaturan Bar Pengumuman",
     function () {},
     "kafe-info-bisnis"
   );
@@ -125,14 +125,141 @@ function kib_field_jam_operasional_render()
 
 function kib_field_pengumuman_aktif_render()
 {
-  global $options;
-  $value = isset($options['pengumuman_aktif']) ? 'checked' : '';
-  echo "<input type='checkbox' name='kib_settings[pengumuman_aktif]' value='1' {$value}>";
+  $options = get_option('kib_settings');
+  $is_checked = isset($options['pengumuman_aktif']) && $options['pengumuman_aktif'] == '1';
+  $checked_attr = $is_checked ? 'checked ="checked"' : '';
+
+  echo "<input type='checkbox' name='kib_settings[pengumuman_aktif]' value='1' {$checked_attr}>";
 }
 
 function kib_field_pengumuman_teks_render()
 {
-  global $options;
-  $value = isset($options['pengumuman_teks']) ?? '';
-  echo "<textarea name='kib_settings[pengumuman_teks]' rows='3' cols='50'>" . esc_attr($value) . "</textarea>";
+  $options = get_option('kib_settings');
+  $value = isset($options['pengumuman_teks']) ? $options['pengumuman_teks'] : '';
+  echo "<textarea name='kib_settings[pengumuman_teks]' rows='3' cols='50'>" . esc_textarea($value) . "</textarea>";
 }
+
+//  shortcode [kib_jam_operasional]
+function kib_jam_operasional_shortcode()
+{
+  $options = get_option("kib_settings");
+
+  if (empty($options['jam'])) {
+    return "<p>Jam operasional belum diatur.</p>";
+  }
+
+  date_default_timezone_set('Asia/Jakarta');
+  $current_day_en = strtolower(date('l'));
+  $current_time = date('H:i');
+
+  $days_map = [
+    'monday' => 'Senin',
+    'tuesday' => 'Selasa',
+    'wednesday' => 'Rabu',
+    'thursday' => 'Kamis',
+    'friday' => 'Jumat',
+    'saturday' => 'Sabtu',
+    'sunday' => 'Minggu'
+  ];
+
+  $current_day = $days_map[$current_day_en] ?? '';
+
+  $status = "<span style='color: red; font-weight: bold;'>Tutup Sekarang</span>";
+  $current_schedule = $options['jam'][$current_day] ?? null;
+
+  if ($current_schedule) {
+    $is_closed = isset($current_schedule['Tutup']);
+
+    if ($is_closed) {
+      $open1 = $current_schedule['buka1'] ?? null;
+      $close1 = $current_schedule['tutup1'] ?? null;
+
+      if (!empty($open1) && !empty($close1) && $current_time >= $open1 && $current_time <= $close1) {
+        if ($current_time >= $open1 && $current_time <= $close1) {
+          $status = "<span style='color: green; font-weight: bold;'>Buka Sekarang</span>";
+        }
+      }
+    }
+  }
+
+  // Output jadwal html shortcode
+  $output = "<div class='info-operasional-widget'>";
+  $output .= "<h3>Jam Operasional</h3>";
+  $output .= "<p>Status Hari Ini: {$status}</p>";
+  $output .= "<table style='width: 100%; text-align: left;'>";
+
+  $display_days = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"];
+
+  foreach ($display_days as $day) {
+    $style_active = ($day === $current_day) ? "font-weight: bold; background-color: #f0f0f0;" : "";
+    $output .= "<tr style='{$style_active}'>";
+    $output .= "<td style='width: 100px;'>" . ucfirst($day) . "</td>";
+
+    $schedule = $options['jam'][$day] ?? null;
+
+    if (isset($schedule['Tutup'])) {
+      $output .= "<td>Tutup</td>";
+    } elseif (!empty($schedule['buka1'])) {
+      $output .= "<td>{$schedule['buka1']} - {$schedule['tutup1']}</td>";
+    } else {
+      $output .= "<td>Tutup</td>";
+    }
+    $output .= "</tr>";
+  }
+
+  $output .= "</table>";
+  $output .= "</div>";
+
+  return $output;
+}
+add_shortcode("info_jam_operasional", "kib_jam_operasional_shortcode");
+
+// shortcode [kib_pengumuman]
+function kib_pengumuman_shortcode()
+{
+  $options = get_option("kib_settings");
+
+  if (isset($options['pengumuman_aktif']) && !empty($options['pengumuman_teks'])) {
+    $teks = esc_html($options['pengumuman_teks']);
+    ?>
+    <div id="kib-announcement-bar">
+      <p><?php echo $teks; ?></p>
+    </div>
+    <style>
+            #kib-announcement-bar {
+                background-color: #23282d; /* Warna default yang kontras */
+                color: #ffffff;
+                text-align: center;
+                padding: 12px 10px;
+                position: fixed; /* 'fixed' agar selalu di atas, bukan 'sticky' */
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: 99998; /* Di bawah admin bar (99999) */
+                box-sizing: border-box;
+            }
+            #kib-announcement-bar p {
+                margin: 0;
+                padding: 0;
+                font-size: 14px;
+            }
+            
+            /* Jika admin bar tampil, geser bar pengumuman ke bawah */
+            body.admin-bar #kib-announcement-bar {
+                top: 32px;
+            }
+
+            /* Beri jarak pada body agar konten utama tidak tertutup bar */
+            body {
+                padding-top: 46px !important; /* Sesuaikan dengan tinggi bar */
+            }
+
+            /* Jika admin bar tampil, beri jarak lebih banyak */
+            body.admin-bar {
+                padding-top: 78px !important; /* 46px (bar) + 32px (admin-bar) */
+            }
+        </style>
+    <?php
+  }
+}
+add_action("wp_footer", "kib_pengumuman_shortcode");
