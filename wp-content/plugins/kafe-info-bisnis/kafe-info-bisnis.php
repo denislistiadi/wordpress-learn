@@ -170,7 +170,7 @@ function kib_jam_operasional_shortcode()
   if ($current_schedule) {
     $is_closed = isset($current_schedule['Tutup']);
 
-    if ($is_closed) {
+    if (!$is_closed) {
       $open1 = $current_schedule['buka1'] ?? null;
       $close1 = $current_schedule['tutup1'] ?? null;
 
