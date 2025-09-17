@@ -1,0 +1,293 @@
+[15-Sep-2025 09:16:02 UTC] DEBUG: Admin_Menu __construct dipanggil
+[15-Sep-2025 09:16:08 UTC] DEBUG: Admin_Menu __construct dipanggil
+[15-Sep-2025 09:16:12 UTC] DEBUG: Admin_Menu __construct dipanggil
+[15-Sep-2025 09:16:29 UTC] DEBUG: Admin_Menu __construct dipanggil
+[15-Sep-2025 09:16:30 UTC] DEBUG: Admin_Menu __construct dipanggil
+[15-Sep-2025 09:16:35 UTC] DEBUG: Admin_Menu __construct dipanggil
+[15-Sep-2025 09:16:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1' at line 1 for query SELECT * FROM wp_localwccm_templatesWHERE id = 1 made by do_action('woocommerce_page_wc-custom-csv-mapper'), WP_Hook->do_action, WP_Hook->apply_filters, WCCM\Admin\Admin_Menu->render_page, WCCM\Core\Template_Manager::single, WCCM\Database\DB::get_template
+[15-Sep-2025 09:18:42 UTC] DEBUG: Admin_Menu __construct dipanggil
+[15-Sep-2025 09:36:40 UTC] PHP Parse error:  syntax error, unexpected token "if" in D:\laragon\www\wordpress-learn\wp-content\plugins\wc-custom-csv-mapper-fixed\includes\Core\Import_Hooks.php on line 124
+[15-Sep-2025 09:36:40 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in D:\laragon\www\wordpress-learn\wp-includes\functions.php on line 6121
+[15-Sep-2025 09:36:59 UTC] Automatic updates starting...
+[15-Sep-2025 09:37:00 UTC] Automatic updates complete.
+
+
+
+[15-Sep-2025 10:18:39 UTC] HOOK DIPICU: gettext_wc-custom-csv-mapper
+[15-Sep-2025 10:18:39 UTC] HOOK DIPICU: gettext_wc-custom-csv-mapper
+[15-Sep-2025 10:18:43 UTC] HOOK DIPICU: gettext_wc-custom-csv-mapper
+[15-Sep-2025 10:18:43 UTC] HOOK DIPICU: gettext_wc-custom-csv-mapper
+[15-Sep-2025 10:18:43 UTC] HOOK DIPICU: load-product_page_product_importer
+[15-Sep-2025 10:18:43 UTC] HOOK DIPICU: admin_print_styles-product_page_product_importer
+[15-Sep-2025 10:18:43 UTC] HOOK DIPICU: admin_print_scripts-product_page_product_importer
+[15-Sep-2025 10:18:43 UTC] HOOK DIPICU: admin_head-product_page_product_importer
+[15-Sep-2025 10:18:43 UTC] HOOK DIPICU: manage_product_page_product_importer_columns
+[15-Sep-2025 10:18:43 UTC] HOOK DIPICU: product_page_product_importer
+[15-Sep-2025 10:18:43 UTC] HOOK DIPICU: woocommerce_product_csv_importer_steps
+[15-Sep-2025 10:18:43 UTC] HOOK DIPICU: admin_print_footer_scripts-product_page_product_importer
+[15-Sep-2025 10:18:43 UTC] HOOK DIPICU: admin_footer-product_page_product_importer
+[15-Sep-2025 10:18:50 UTC] HOOK DIPICU: gettext_wc-custom-csv-mapper
+[15-Sep-2025 10:18:50 UTC] HOOK DIPICU: gettext_wc-custom-csv-mapper
+[15-Sep-2025 10:18:50 UTC] HOOK DIPICU: load-product_page_product_importer
+[15-Sep-2025 10:18:50 UTC] HOOK DIPICU: admin_print_styles-product_page_product_importer
+[15-Sep-2025 10:18:50 UTC] HOOK DIPICU: admin_print_scripts-product_page_product_importer
+[15-Sep-2025 10:18:50 UTC] HOOK DIPICU: admin_head-product_page_product_importer
+[15-Sep-2025 10:18:50 UTC] HOOK DIPICU: manage_product_page_product_importer_columns
+[15-Sep-2025 10:18:50 UTC] HOOK DIPICU: product_page_product_importer
+[15-Sep-2025 10:18:50 UTC] HOOK DIPICU: woocommerce_product_csv_importer_steps
+[15-Sep-2025 10:18:50 UTC] HOOK DIPICU: woocommerce_csv_product_import_valid_filetypes
+[15-Sep-2025 10:18:50 UTC] HOOK DIPICU: woocommerce_csv_importer_check_import_file_path
+[15-Sep-2025 10:18:50 UTC] HOOK DIPICU: woocommerce_csv_import_valid_filetypes
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: gettext_wc-custom-csv-mapper
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: gettext_wc-custom-csv-mapper
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: load-product_page_product_importer
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: admin_print_styles-product_page_product_importer
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: admin_print_scripts-product_page_product_importer
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: admin_head-product_page_product_importer
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: manage_product_page_product_importer_columns
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: product_page_product_importer
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_product_csv_importer_steps
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_importer_check_import_file_path
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_import_valid_filetypes
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_product_csv_importer_class
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_product_csv_importer_args
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_importer_check_import_file_path
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_import_valid_filetypes
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_product_import_mapping_default_columns
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_product_import_mapping_special_columns
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_product_import_mapped_columns
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_product_import_mapping_options
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_product_import_mapping_options
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_product_import_mapping_options
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_product_import_mapping_options
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_product_import_mapping_options
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_product_import_mapping_options
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_product_import_mapping_options
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: woocommerce_csv_product_import_mapping_options
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: admin_print_footer_scripts-product_page_product_importer
+[15-Sep-2025 10:18:51 UTC] HOOK DIPICU: admin_footer-product_page_product_importer
+
+
+[15-Sep-2025 10:20:56 UTC] === DROPDOWN TEMPLATE DIPANGGIL ===
+[15-Sep-2025 10:20:56 UTC] Jumlah template: 1
+[15-Sep-2025 10:20:56 UTC] === DROPDOWN TEMPLATE DIPANGGIL ===
+[15-Sep-2025 10:20:56 UTC] Jumlah template: 1
+[15-Sep-2025 10:20:56 UTC] === DROPDOWN TEMPLATE DIPANGGIL ===
+[15-Sep-2025 10:20:56 UTC] Jumlah template: 1
+[15-Sep-2025 10:20:56 UTC] === DROPDOWN TEMPLATE DIPANGGIL ===
+[15-Sep-2025 10:20:56 UTC] Jumlah template: 1
+[15-Sep-2025 10:20:56 UTC] === DROPDOWN TEMPLATE DIPANGGIL ===
+[15-Sep-2025 10:20:56 UTC] Jumlah template: 1
+[15-Sep-2025 10:20:56 UTC] === DROPDOWN TEMPLATE DIPANGGIL ===
+[15-Sep-2025 10:20:56 UTC] Jumlah template: 1
+[15-Sep-2025 10:20:56 UTC] === DROPDOWN TEMPLATE DIPANGGIL ===
+[15-Sep-2025 10:20:56 UTC] Jumlah template: 1
+[15-Sep-2025 10:20:56 UTC] === DROPDOWN TEMPLATE DIPANGGIL ===
+[15-Sep-2025 10:20:56 UTC] Jumlah template: 1
+[15-Sep-2025 10:41:40 UTC] PHP Fatal error:  Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php:175
+Stack trace:
+#0 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php(175): array_keys(NULL)
+#1 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-importers.php(133): WC_Product_CSV_Importer_Controller->__construct()
+#2 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(324): WC_Admin_Importers->product_importer('')
+#3 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 D:\laragon\www\wordpress-learn\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\laragon\www\wordpress-learn\wp-admin\admin.php(260): do_action('product_page_pr...')
+#6 D:\laragon\www\wordpress-learn\wp-admin\edit.php(10): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php on line 175
+
+
+[15-Sep-2025 10:42:33 UTC] PHP Fatal error:  Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php:175
+Stack trace:
+#0 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php(175): array_keys(NULL)
+#1 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-importers.php(133): WC_Product_CSV_Importer_Controller->__construct()
+#2 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(324): WC_Admin_Importers->product_importer('')
+#3 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 D:\laragon\www\wordpress-learn\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\laragon\www\wordpress-learn\wp-admin\admin.php(260): do_action('product_page_pr...')
+#6 D:\laragon\www\wordpress-learn\wp-admin\edit.php(10): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php on line 175
+[15-Sep-2025 10:47:14 UTC] PHP Fatal error:  Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php:175
+Stack trace:
+#0 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php(175): array_keys(NULL)
+#1 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-importers.php(133): WC_Product_CSV_Importer_Controller->__construct()
+#2 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(324): WC_Admin_Importers->product_importer('')
+#3 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 D:\laragon\www\wordpress-learn\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\laragon\www\wordpress-learn\wp-admin\admin.php(260): do_action('product_page_pr...')
+#6 D:\laragon\www\wordpress-learn\wp-admin\edit.php(10): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php on line 175
+[15-Sep-2025 10:47:57 UTC] PHP Fatal error:  Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php:175
+Stack trace:
+#0 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php(175): array_keys(NULL)
+#1 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-importers.php(133): WC_Product_CSV_Importer_Controller->__construct()
+#2 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(324): WC_Admin_Importers->product_importer('')
+#3 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 D:\laragon\www\wordpress-learn\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\laragon\www\wordpress-learn\wp-admin\admin.php(260): do_action('product_page_pr...')
+#6 D:\laragon\www\wordpress-learn\wp-admin\edit.php(10): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php on line 175
+
+
+
+[15-Sep-2025 10:51:27 UTC] PHP Fatal error:  Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php:175
+Stack trace:
+#0 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php(175): array_keys(NULL)
+#1 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-importers.php(133): WC_Product_CSV_Importer_Controller->__construct()
+#2 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(324): WC_Admin_Importers->product_importer('')
+#3 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 D:\laragon\www\wordpress-learn\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\laragon\www\wordpress-learn\wp-admin\admin.php(260): do_action('product_page_pr...')
+#6 D:\laragon\www\wordpress-learn\wp-admin\edit.php(10): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php on line 175
+[15-Sep-2025 10:52:26 UTC] PHP Fatal error:  Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php:175
+Stack trace:
+#0 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php(175): array_keys(NULL)
+#1 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-importers.php(133): WC_Product_CSV_Importer_Controller->__construct()
+#2 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(324): WC_Admin_Importers->product_importer('')
+#3 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 D:\laragon\www\wordpress-learn\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\laragon\www\wordpress-learn\wp-admin\admin.php(260): do_action('product_page_pr...')
+#6 D:\laragon\www\wordpress-learn\wp-admin\edit.php(10): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php on line 175
+[15-Sep-2025 10:54:58 UTC] PHP Fatal error:  Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php:175
+Stack trace:
+#0 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php(175): array_keys(NULL)
+#1 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-importers.php(133): WC_Product_CSV_Importer_Controller->__construct()
+#2 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(324): WC_Admin_Importers->product_importer('')
+#3 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 D:\laragon\www\wordpress-learn\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\laragon\www\wordpress-learn\wp-admin\admin.php(260): do_action('product_page_pr...')
+#6 D:\laragon\www\wordpress-learn\wp-admin\edit.php(10): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php on line 175
+
+
+
+[15-Sep-2025 10:56:57 UTC] PHP Fatal error:  Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php:175
+Stack trace:
+#0 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php(175): array_keys(NULL)
+#1 D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-importers.php(133): WC_Product_CSV_Importer_Controller->__construct()
+#2 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(324): WC_Admin_Importers->product_importer('')
+#3 D:\laragon\www\wordpress-learn\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 D:\laragon\www\wordpress-learn\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\laragon\www\wordpress-learn\wp-admin\admin.php(260): do_action('product_page_pr...')
+#6 D:\laragon\www\wordpress-learn\wp-admin\edit.php(10): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\wordpress-learn\wp-content\plugins\woocommerce\includes\admin\importers\class-wc-product-csv-importer-controller.php on line 175
+[15-Sep-2025 11:27:03 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in D:\laragon\www\wordpress-learn\wp-includes\functions.php on line 6121
+
+
+[16-Sep-2025 06:09:34 UTC] WooCommerce Default Import Columns: Array
+(
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:09:35 UTC] WooCommerce Default Import Columns: Array
+(
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:09:37 UTC] WooCommerce Default Import Columns: Array
+(
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:09:48 UTC] WooCommerce Default Import Columns: Array
+(
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:09:57 UTC] WooCommerce Default Import Columns: Array
+(
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:09:57 UTC] WooCommerce Default Import Columns: Array
+(
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:09:58 UTC] WooCommerce Default Import Columns: Array
+(
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:10:59 UTC] WooCommerce Default Import Columns: Array
+(
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:11:44 UTC] WooCommerce Default Import Columns: Array
+(
+    [KODE_BARANG] => sku
+    [NAMA_PRODUK] => name
+    [DESKRIPSI_LENGKAP] => description
+    [HARGA_JUAL] => regular_price
+    [STOK_READY] => stock_quantity
+    [KATEGORI] => KATEGORI
+    [URL_GAMBAR] => images
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:11:47 UTC] WooCommerce Default Import Columns: Array
+(
+    [KODE_BARANG] => sku
+    [NAMA_PRODUK] => name
+    [DESKRIPSI_LENGKAP] => description
+    [HARGA_JUAL] => regular_price
+    [STOK_READY] => stock_quantity
+    [KATEGORI] => KATEGORI
+    [URL_GAMBAR] => images
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:12:47 UTC] WooCommerce Default Import Columns: Array
+(
+    [KODE_BARANG] => sku
+    [NAMA_PRODUK] => name
+    [DESKRIPSI_LENGKAP] => description
+    [HARGA_JUAL] => regular_price
+    [STOK_READY] => stock_quantity
+    [KATEGORI] => KATEGORI
+    [URL_GAMBAR] => images
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:12:59 UTC] WooCommerce Default Import Columns: Array
+(
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:14:03 UTC] WooCommerce Default Import Columns: Array
+(
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:16:03 UTC] WooCommerce Default Import Columns: Array
+(
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:18:03 UTC] WooCommerce Default Import Columns: Array
+(
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:20:03 UTC] WooCommerce Default Import Columns: Array
+(
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 06:22:03 UTC] WooCommerce Default Import Columns: Array
+(
+    [Brands] => brand_ids
+)
+
+[16-Sep-2025 11:18:47 UTC] Automatic updates starting...
+[16-Sep-2025 11:18:51 UTC] Automatic updates complete.
