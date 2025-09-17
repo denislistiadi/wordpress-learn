@@ -1,0 +1,4 @@
+KODE_PRODUK,NAMA_BARANG,HARGA_NORMAL,HARGA_DISKON,JUMLAH_STOK,KATEGORI,DESKRIPSI,GAMBAR
+SHO-001,Sepatu Sneaker Wanita,350000,300000,25,Shoes,Sneaker casual nyaman dipakai sehari-hari,https://i.imgur.com/1.jpg
+SHO-002,Sepatu High Heels,275000,,15,Shoes,Hak 7 cm elegan untuk acara formal,https://i.imgur.com/2.jpg
+BAG-001,Tas Selempang Kulit,180000,150000,10,Bags,Tas kulit asli bergaya minimalis,https://i.imgur.com/3.jpg

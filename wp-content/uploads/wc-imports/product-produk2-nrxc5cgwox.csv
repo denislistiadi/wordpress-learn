@@ -1,0 +1,3 @@
+KODE_BARANG,NAMA_PRODUK,DESKRIPSI_SINGKAT,DESKRIPSI_LENGKAP,HARGA_JUAL,STOK_READY,KATEGORI,TAG,BRAND,WARNA,UKURAN,MATERIAL,URL_GAMBAR_1,URL_GAMBAR_2
+ITEM-ABC,Baju T-shirt,Baju kaos nyaman,"Baju T-shirt katun 100% berkualitas tinggi, nyaman dipakai sehari-hari",100000,20,"Baju, Unisex","T-shirt,Casual,Fashion",BrandA,Putih,"M,L,XL",Katun,https://images-cdn.ubuy.co.id/65d181843c76643163161751-toddler-little-kids-shoes-boys-girls.jpg,
+ITEM-XYZ,Topi Baseball,Topi kasual stylish,"Topi kasual berbahan denim, cocok untuk aktivitas outdoor dan santai",50000,5,Aksesoris,"Topi,Denim,Casual",BrandB,Biru,All Size,Denim,https://images-cdn.ubuy.co.id/65d181843c76643163161751-toddler-little-kids-shoes-boys-girls.jpg,

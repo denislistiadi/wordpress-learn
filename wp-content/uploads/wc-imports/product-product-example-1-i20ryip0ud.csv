@@ -1,0 +1,4 @@
+KODE_PRODUK,NAMA_BARANG,HARGA_NORMAL,HARGA_DISKON,JUMLAH_STOK,KATEGORI,DESKRIPSI,GAMBAR
+SHO-001,Sepatu Sneaker Wanita,350000,300000,2500,Shoes,Sneaker casual nyaman dipakai sehari-hari,https://img.lazcdn.com/g/p/7dd5414f6a294fcba5fc306f5fe6c100.jpg_720x720q80.jpg
+SHO-002,Sepatu High Heels,275000,,1500,Shoes,Hak 7 cm elegan untuk acara formal,https://img.lazcdn.com/g/p/8d5b25065d2da90719e5934468c978a9.jpg_720x720q80.jpg
+BAG-001,Tas Selempang Kulit,180000,150000,1000,Bags,Tas kulit asli bergaya minimalis,https://img.lazcdn.com/g/p/ceb0f462dfea44a090bd0ba3e748fd7e.jpg_720x720q80.jpg
